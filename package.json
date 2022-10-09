@@ -4,7 +4,8 @@
     "scripts": {
         "ssm-migrate": "node src/migrate.js",
         "load-envs": "node src/load-envs.js",
-        "source-envs": "node src/source-envs.js"
+        "source-envs": "node src/source-envs.js",
+        "compare-envs": "node src/compare-envs.js"
     },
     "author": "Napo Monasterio",
     "dependencies": {
