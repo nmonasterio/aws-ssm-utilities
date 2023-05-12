@@ -50,3 +50,7 @@ Thumbs.db
 
 *.env*
 
+*.json
+foobar
+foobar2
+SSM examples.txt
