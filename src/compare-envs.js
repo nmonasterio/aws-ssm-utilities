@@ -32,7 +32,7 @@ var options = yargs
     .option('t', {
         alias: 'to',
         demandOption: true,
-        describe: 'The prefix for the source SSM values.',
+        describe: 'The prefix for the destination SSM values.',
         type: 'string'
     })
     .option('d', {
@@ -46,7 +46,7 @@ var options = yargs
         alias: 'destinationRegion',
         demandOption: false,
         default: 'us-east-1',
-        describe: 'The source AWS region.',
+        describe: 'The destination AWS region.',
         type: 'string'
     })
     .option('w', {
@@ -68,7 +68,7 @@ var options = yargs
         demandOption: false,
         default: '.env',
         describe: 'The name of the file to write to',
-        type: 'boolean'
+        type: 'string'
     })
 
 
